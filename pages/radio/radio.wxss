@@ -1,0 +1,16 @@
+/* pages/radio/radio.wxss */
+
+.problems {
+  width: 100%;
+  height: auto;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.radio-group {
+  margin-top: 10rpx;
+}
+
+.radio {
+  padding-top: 10rpx;
+}

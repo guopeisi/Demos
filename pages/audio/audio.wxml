@@ -1,0 +1,4 @@
+<view>{{audioTime}}</view>
+<button type='primary' bindtap='audioPlay'>播放</button>
+<button type='primary' bindtap='audioPause'>暂停</button>
+<button type='primary' bindtap='audioEnd'>结束</button>

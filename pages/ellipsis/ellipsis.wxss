@@ -1,0 +1,33 @@
+/* pages/ellipsis/ellipsis.wxss */
+
+.content {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 30rpx;
+  font-size: 13px;
+  color: #888;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.ellipsis {
+  -webkit-line-clamp: 4;
+}
+
+.unellipsis {
+  -webkit-line-clamp: 0;
+}
+
+.anniu {
+  width: 200rpx;
+  height: 100rpx;
+  background: green;
+  font-size: 30rpx;
+  color: #fff;
+  line-height: 100rpx;
+  text-align: center;
+  margin: 0 auto;
+}

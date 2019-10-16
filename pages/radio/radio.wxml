@@ -1,0 +1,9 @@
+<!--pages/radio/radio.wxml-->
+<view class="problems" wx:for='{{problems}}' wx:key='index' wx:for-item='item'>
+  <label class="title">{{item.title}}</label>
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:for='{{item.options}}' wx:key='index' wx:for-item='item'>
+      <radio value="{{item.name}}" checked="{{item.checked}}">{{item.value}}</radio>
+    </label>
+  </radio-group>
+</view>

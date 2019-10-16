@@ -1,0 +1,26 @@
+<!--pages/chooseImg/chooseImg.wxml-->
+<!-- <button style="margin:30rpx;" bindtap="chooseimage">获取图片</button>
+<image src="{{tempFilePaths}}" mode="aspecFill" style="width: 100%; height: 450rpx" /> -->
+
+
+
+<!-- 预览图片 -->
+<!-- <view>
+  <text bindtap='chooseImg'>上传图片</text>
+</view>
+<view>
+  <view wx:for='{{imgs}}' wx:for-key='item' wx:for-index='id'>
+    <image src='{{item}}' bindtap='previewImg'></image>
+  </view>
+</view> -->
+
+
+
+<!-- 选择多张图片换行显示 -->
+<button style="margin:30rpx;" bindtap="ci">获取图片</button>
+<view class="big-logos">
+  <block wx:for="{{pics}}" wx:key="index">
+    <image src='{{item}}' data-index='{{index}}' style='width: 200rpx; height: 200rpx;'></image>
+  </block>
+</view>
+<view bindtap='change'>转码</view>

@@ -1,0 +1,3 @@
+<!--pages/lookpdf/lookpdf.wxml-->
+<view>PDF Preview</view>
+<view catchtap='lookPdf' class='' data-url='{{wdUrl}}' data-name='投保须知'>《投保须知》</view>

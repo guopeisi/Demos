@@ -1,0 +1,16 @@
+<!--pages/choice_question/detail/detail.wxml-->
+<!-- <view>
+  <view>{{details[id].name}}</view>
+  <view>{{details[id].content}}</view>
+</view>
+<text>第{{id+1}}首/共{{details.length}}首</text>
+<button bindtap="lastQuestion">◀</button>
+<button bindtap="nextQuestion">▶</button> -->
+
+<view>
+  <view>{{details[id].name}}</view>
+  <view>{{details[id].content}}</view>
+</view>
+<text>第{{id+1}}首/共{{details.length}}首</text>
+<button bindtap="lastQuestion">◀</button>
+<button bindtap="nextQuestion">▶</button>

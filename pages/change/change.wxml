@@ -1,0 +1,5 @@
+<!--pages/change/change.wxml-->
+<view class="location_bottom" hidden="">
+  <view class="{{_num == 1?'add_citying':'add_city'}}" data-num="1" bindtap="clickNum">北京</view>
+  <view class="{{_num == 2?'add_citying':'add_city'}}" data-num="2" bindtap="clickNum">上海</view>
+</view>

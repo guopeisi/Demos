@@ -1,0 +1,12 @@
+/* pages/jump/jump.wxss */
+.jump {
+  width: 600rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  color: #fff;
+  background-color: blue;
+  border-radius: 10rpx;
+  text-align: center;
+  margin-top: 50rpx;
+}

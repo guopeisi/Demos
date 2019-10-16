@@ -1,0 +1,5 @@
+<!--pages/open_close/open_close.wxml-->
+<view class='items' wx:for='{{items}}'>
+  <view style='{{item.folded ? "display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden ": ""}}'>{{item.text}}</view>
+  <view style='color: blue' data-id='{{item.id}}' bindtap='handleFold'>全文</view>
+</view>

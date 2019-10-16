@@ -1,0 +1,6 @@
+/* pages/open_close/open_close.wxss */
+
+.items {
+  border: 1px solid greenyellow;
+  padding: 10px;
+}

@@ -1,0 +1,5 @@
+<!--pages/jump/jump.wxml-->
+<!-- <web-view src='https://www.baidu.com/'></web-view> -->
+<view>
+  <button class='jump' bindtap='goBaidu'>百度一下，你就知道</button>
+</view>

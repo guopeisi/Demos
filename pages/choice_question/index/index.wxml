@@ -1,0 +1,14 @@
+<!--pages/choice_question/index/index.wxml-->
+<!-- <view wx:for="{{postList}}" wx:for-item="item" wx:for-index="index">
+  <navigator url="./../detail/detail?id={{index}}">
+    <text>{{item.name}}</text>
+  </navigator>
+</view>
+<text>共{{postList.length}}首作品</text> -->
+
+<view wx:for="{{postList}}" wx:key='index' wx:for-item='item'>
+  <navigator url="../detail/detail?id={{index}}">
+    <text>{{item.name}}</text>
+  </navigator>
+</view>
+<text>共{{postList.length}}首作品</text>

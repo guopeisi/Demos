@@ -1,0 +1,33 @@
+/* pages/change/change.wxss */
+
+.location_bottom {
+  height: 140rpx;
+  line-height: 140rpx;
+  color: #d91f16;
+  font-size: 28rpx;
+  border-top: 2rpx #ebebeb solid;
+  border-bottom: 2rpx #ebebeb solid;
+  padding: 0 20rpx;
+  align-items: center;
+  display: -webkit-flex;
+}
+
+.add_city {
+  width: 228rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border: 2rpx solid #ebebeb;
+  color: #000;
+  margin-right: 20rpx;
+}
+
+.add_citying {
+  width: 228rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border: 2rpx solid #09bb07;
+  color: #09bb07;
+  margin-right: 20rpx;
+}
